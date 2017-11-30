@@ -31,7 +31,7 @@ DEFAULT_REQUEST_HEADERS = {
 CRAW_NUM = 1500
 
 # 要抓取的group
-GROUPS = ['nanshanzufang', 'szsh']
+GROUPS = ['nanshanzufang', 'szsh','106955']
 
 # 速度控制
 DOWNLOAD_DELAY = 1
