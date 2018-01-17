@@ -28,7 +28,7 @@ DEFAULT_REQUEST_HEADERS = {
 }
 
 # 每个小组抓取的数量
-CRAW_NUM = 1500
+CRAW_NUM = 1000
 
 # 要抓取的group
 GROUPS = ['nanshanzufang', 'szsh','106955']

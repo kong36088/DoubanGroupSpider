@@ -47,5 +47,6 @@ class DoubangroupPipeline(object):
             cursor.connection.commit()
         except BaseException as e:
             print("错误在这里>>>>>>>>>>>>>", e, "<<<<<<<<<<<<<错误在这里")
+            print(item)
             db_con.rollback()
         return item
